@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+        margin-left:  auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top:2px;
+    }
+
+    .middle{
+        padding: 0.5cm;
+    }
+   
+
+    .all{
+        background-color: rgb(195, 188, 188);
+        border: solid black;
+        
+    }
+
+
+    .head{
+        border: solid rgb(183, 27, 27);
+    }
+        
+    </style>
+</head>
+<body >
+    <div class="all">
+        <div class="main">
+            <div class="head" >
+                <center>
+                    <h1>Application Form</h1>
+                    <h2> Position:<span style="color: red;">Software Engineer</span></h2>
+                </center>
+            </div >
+                <br>
+            <form>
+                <div class="middle">
+                        Name:
+                            <input type="text" name="name" >
+                            <br>
+                            <br>
+                        Birthday:
+                            <input type="date" name="bday">
+                            <br>
+                            <br>
+                        Phone Number:
+                            <input type="phone" name="pn">
+                            <br>
+                            <br>
+                        Gender:
+                            <input type="radio" name="gen" value="m">Male
+                            <input type="radio" name="gen" value="f">Female
+                            <br>
+                            <br>
+                        Highest Level Education:
+                            <select name="county">
+                                <option value="s">Masters Degree></option> 
+                                <option value="sl">Bsc</option>            
+                                <option value="u">A/L</option>            
+                                <option value="i">O/L</option>
+                            </select>
+                        <br>
+                        <br>
+                        CV:
+                            <input type="file"  name="fileInput">
+                </div>
+                        <br>
+                        <br>
+                <center>
+                <div class="under">
+                    <input type="checkbox" name="agree"> I agree to these <a href="http://127.0.0.1:5500/application.html" alt="you tube" target="blank">Termes and Conditions</a>
+                    <br>
+                    <br>
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="reset" name="reset" value="Reset">
+                </div>
+
+                </center>
+                <br>
+            </form>
+        </div>
+    </div>
+ </body>
+</html>
